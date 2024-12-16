@@ -1,6 +1,6 @@
 
 
-This folder contains the code to replicate the experiments in and plots showed in the manuscript ``Random Flows of Covariance Operators and their Statistical Inference".
+This repository contains the code to replicate the experiments in and plots showed in the manuscript ``Random Flows of Covariance Operators and their Statistical Inference".
 
 SEE https://arxiv.org/abs/2310.13764
 

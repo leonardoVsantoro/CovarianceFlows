@@ -9,9 +9,9 @@ SEE https://arxiv.org/abs/2310.13764
 covflows
 ├── FTS_mortality_data                   # application to real data: functional time series given by age-at-death rates
     ├── data                             # contains dataset
-        ├── ...                          # one .txt file for each region, containing the age-at-death timeseries rates for that region
+        ├── ...                          # age-at-death timeseries rates for that region, one .txt per region
     ├── funs                             # the functions needed
-        ├── bw.py                        # functions related to bures-wasserstein space: distance, optimal maps, algorithm for frechet means...
+        ├── bw.py                        # bures-wasserstein geometry related functions
         ├── fts.py                       # functions related to spectral analysis of FTS
         ├── miscellaneous.py             # various functions
         ├── plotting_fts.py              # plotting functions
@@ -19,7 +19,7 @@ covflows
     ├── script.py                        # the python script that generates the relevant output
 ├── simulation_study                     # the simulation study: generation of a syntetic dataset, PCA,...
     ├── funs                             # the functions needed
-        ├── bw.py                        # functions related to bures-wasserstein space: distance, optimal maps, algorithm for frechet means...
+        ├── bw.py                        # bures-wasserstein geometry related functions -- optimized differently
         ├── generative_model.py          # functions related to generative model for random flows
         ├── miscellaneous.py             # various functions
         ├── plotting_fts.py              # plotting functions
